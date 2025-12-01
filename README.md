@@ -19,7 +19,7 @@ Dự án là một **ứng dụng quản lý quán ăn** được phát triển 
 1. **Đăng nhập**
    - Kiểm tra username và password từ cơ sở dữ liệu.  
    - Ẩn/hiện mật khẩu khi click vào icon.
-   - ![Login](images/danhmuc.png)
+   - ![Login](Ảnh%20chụp%20màn%20hình%202025-12-01%20151006.png)
 
 2. **Quản lý danh mục món ăn**
    - Thêm, sửa, xóa danh mục món ăn.

@@ -28,7 +28,7 @@ Dự án là một **ứng dụng quản lý quán ăn** được phát triển 
    - Thêm, sửa, xóa danh mục món ăn.
    - Dữ liệu hiển thị trực tiếp trên DataGridView.
    - Minh họa giao diện:
-   ![Danh mục món ăn](Ảnh%20chụp%20màn%20hình%202025-12-01%20151048.pngimages/danhmuc.png)
+   ![Danh mục món ăn](Ảnh%20chụp%20màn%20hình%202025-12-01%20151048.png)
 
 4. **Quản lý thực đơn**
    - Thêm, sửa, xóa món ăn trong thực đơn.

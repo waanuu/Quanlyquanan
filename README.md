@@ -1,4 +1,4 @@
-# Quản Lý Quán Ăn - Windows Forms C#
+# Quản Lý Quán Ăn - Windows Forms C# ( đang hoàn thiện )
 
 ## Mô tả dự án
 Dự án là một **ứng dụng quản lý quán ăn** được phát triển bằng **C# WinForms** kết hợp **SQL Server**.  
@@ -20,37 +20,32 @@ Dự án là một **ứng dụng quản lý quán ăn** được phát triển 
    - Kiểm tra username và password từ cơ sở dữ liệu.  
    - Ẩn/hiện mật khẩu khi click vào icon.
    - ![Login](Ảnh%20chụp%20màn%20hình%202025-12-01%20151006.png)
+     
+2. **Trang chủ**
+   -![Trang chủ](Ảnh%20chụp%20màn%20hình%202025-12-01%20151017.png)
 
-2. **Quản lý danh mục món ăn**
+3. **Quản lý danh mục món ăn**
    - Thêm, sửa, xóa danh mục món ăn.
    - Dữ liệu hiển thị trực tiếp trên DataGridView.
    - Minh họa giao diện:
-   ![Danh mục món ăn](images/danhmuc.png)
+   ![Danh mục món ăn](Ảnh%20chụp%20màn%20hình%202025-12-01%20151048.pngimages/danhmuc.png)
 
-3. **Quản lý thực đơn**
+4. **Quản lý thực đơn**
    - Thêm, sửa, xóa món ăn trong thực đơn.
    - Chọn loại món từ danh mục.
    - Minh họa giao diện:
-   ![Thực đơn](images/thucdon.png)
+   ![Thực đơn](Ảnh%20chụp%20màn%20hình%202025-12-01%20151828.png)
 
-4. **Quản lý bàn ăn**
+5. **Quản lý bàn ăn**( chưa hoàn thiện )
    - Thêm, sửa, xóa thông tin bàn ăn.
    - Làm mới dữ liệu dễ dàng.
-   - Minh họa giao diện:
-   ![Bàn ăn](images/banan.png)
 
-5. **Quản lý hóa đơn**
+
+6. **Quản lý hóa đơn** ( chưa hoàn thiện )
    - Thêm món vào hóa đơn với số lượng.
    - Xem hóa đơn trực quan.
-   - Minh họa giao diện:
-   ![Hóa đơn](images/hoadon.png)
+ 
 
-6. **Giao diện**
-   - Sử dụng nhiều **Panel** để quản lý từng module.
-   - Ẩn/hiện panel theo module để tăng trải nghiệm người dùng.
+7. **Người dùng** ( chưa hoàn thiện )
+   - Thông tin người dùng
 
-## Hướng dẫn sử dụng
-1. Mở **Visual Studio**, tải dự án về.  
-2. Chỉnh sửa **connection string** để kết nối với SQL Server:  
-   ```csharp
-   private string connect = @"Data Source=YOUR_SERVER_NAME;Initial Catalog=MonAn;Integrated Security=True;";
